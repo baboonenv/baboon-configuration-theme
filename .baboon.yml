@@ -5,6 +5,8 @@ info:
 
 render_files:
     - index.html
+    - css/style.css
+    - js/site.js
 
 assets:
     text_text:
@@ -48,3 +50,6 @@ assets:
           - Behram
     email:
         type: email
+    font_color:
+        type: color
+        default: red

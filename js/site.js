@@ -1,0 +1,1 @@
+console.log('{{text_text}} console log text');
