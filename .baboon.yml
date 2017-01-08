@@ -28,6 +28,9 @@ assets:
         multiple: true
         max: 1000
         min: 10
+        value:
+          - '##hello markdown'
+          - '~Hello markdown 2~'
     text_richtext:
         label: 'Richtext'
         type: richtext
