@@ -28,7 +28,7 @@ assets:
         multiple: true
         max: 1000
         min: 10
-        value:
+        default:
           - '##hello markdown'
           - '~Hello markdown 2~'
     text_richtext:
