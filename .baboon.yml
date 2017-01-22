@@ -25,12 +25,9 @@ assets:
     text_markdown:
         label: 'Markdown'
         type: markdown
-        multiple: true
         max: 1000
         min: 10
-        default:
-          - '##hello markdown'
-          - '~Hello markdown 2~'
+        default: '##hello markdown'
     text_richtext:
         label: 'Richtext'
         type: richtext
