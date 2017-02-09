@@ -25,6 +25,7 @@ assets:
     text_markdown:
         label: 'Markdown'
         type: markdown
+        multiple: true
         max: 1000
         min: 10
         default: '##hello markdown'
@@ -75,7 +76,6 @@ assets:
     posts:
         label: 'Posts'
         type: tree
-        multiple: true
         assets:
             title:
                 label: 'Post Title'
@@ -96,7 +96,6 @@ assets:
             authors:
                 label: 'Authors'
                 type: tree
-                multiple: true
                 assets:
                     full_name:
                         label: 'Author Full Name'
