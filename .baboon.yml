@@ -93,3 +93,14 @@ assets:
                 label: 'Post Content'
                 type: richtext
                 default: '<h1>Rich text post content</h1>'
+            authors:
+                label: 'Authors'
+                type: tree
+                multiple: true
+                assets:
+                    title:
+                        label: 'Author Full Name'
+                        type: string
+                        max: 50
+                        min: 10
+                        default: Behram ÇELEN
