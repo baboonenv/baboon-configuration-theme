@@ -98,7 +98,7 @@ assets:
                 type: tree
                 multiple: true
                 assets:
-                    title:
+                    full_name:
                         label: 'Author Full Name'
                         type: string
                         max: 50
