@@ -93,6 +93,11 @@ assets:
                 label: 'Post Content'
                 type: richtext
                 default: '<h1>Rich text post content</h1>'
+            tags:
+                label: 'Post Tag'
+                type: string
+                multiple: true
+                default: 'great'
             authors:
                 label: 'Authors'
                 type: tree
