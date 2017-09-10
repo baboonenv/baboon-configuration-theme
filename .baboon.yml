@@ -108,3 +108,11 @@ assets:
                         max: 50
                         min: 10
                         default: Behram ÇELEN
+                    titles:
+                        label: 'Author Titles'
+                        type: tree
+                        assets:
+                            title:
+                                label: 'Author Title'
+                                type: string
+                                default: Prof.
