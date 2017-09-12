@@ -66,6 +66,10 @@
         {{#authors}}
             <h2>author name</h2>
             {{full_name}}
+            <h3>author titles</h3>
+            {{#titles}}
+                <h3>{{title}}</h3>
+            {{/titles}}
         {{/authors}}
     {{/posts}}
 </section>
