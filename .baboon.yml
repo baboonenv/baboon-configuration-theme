@@ -85,7 +85,7 @@ assets:
                 default: My Great Post
             thumb:
                 label: 'Post Thumb'
-                type: image
+                type: zalim
                 width: 100
                 height: 250
                 default: 'http://lorempixel.com/100/250/'
